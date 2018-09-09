@@ -7,7 +7,7 @@ package leetcode.easy;
  */
 public class b1ImplementStrStr {
 	public static void main(String[] args) {
-
+		System.out.println(strStr("asdasabcfe","abc"));
 	}
 
 	public static int strStr(String haystack,String needle) {

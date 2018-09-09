@@ -44,7 +44,7 @@ public class b3MaxiumSubarray {
             sum += nums[i];
             leftSum = Integer.max(sum, leftSum);
         }
-        int res = Integer.max(leftSum, rigthSum);
+        int res = Integer.max(left_mss, right_mss);
         return Integer.max(res, leftSum + rigthSum);
     }
 }
