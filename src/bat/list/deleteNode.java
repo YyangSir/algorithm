@@ -13,9 +13,9 @@ public class deleteNode {
         node.next = node1;
         node1.next = node2;
         ListNode result = deleteNode(node, node1);
-        while (node != null) {
-            System.out.println(node.value);
-            node = node.next;
+        while (result != null) {
+            System.out.println(result.value);
+            result = result.next;
         }
     }
 
