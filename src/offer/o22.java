@@ -3,7 +3,7 @@ package offer;
 /**
  * @author Yyang
  * @create 2018/10/14
- * @Describe
+ * @Describe 复制复杂链表
  */
 public class o22 {
     public static void main(String[] args) {

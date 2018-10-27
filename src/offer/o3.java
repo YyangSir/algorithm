@@ -1,7 +1,6 @@
 package offer;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 /**
  * @author Yyang
@@ -40,12 +39,4 @@ public class o3 {
         return res;
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next = null;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
 }

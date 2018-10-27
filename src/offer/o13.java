@@ -56,12 +56,4 @@ public class o13 {
         return mergehead;
     }
 
-    public static class ListNode {
-        int val;
-        ListNode next = null;
-
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
 }

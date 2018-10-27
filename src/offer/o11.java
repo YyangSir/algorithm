@@ -12,7 +12,7 @@ public class o11 {
         ListNode head = create(6);
         head = FindKthToTail(head, 2);
         while (head != null) {
-            System.out.print(head.value+" ");
+            System.out.print(head.val+" ");
             head = head.next;
         }
     }
@@ -48,15 +48,6 @@ public class o11 {
         ListNode head = new ListNode(n);
         head.next = create(n - 1);
         return head;
-    }
-    public static class ListNode {
-        public int value;
-        public ListNode next;
-
-
-        public ListNode(int value) {
-            this.value = value;
-        }
     }
 }
 

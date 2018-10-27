@@ -1,5 +1,7 @@
 package bat.list;
 
+import offer.ListNode;
+
 /**
  * @author Yyang
  * @create 2018/9/5
@@ -14,7 +16,7 @@ public class deleteNode {
         node1.next = node2;
         ListNode result = deleteNode(node, node1);
         while (result != null) {
-            System.out.println(result.value);
+            System.out.println(result.val);
             result = result.next;
         }
     }
@@ -40,7 +42,7 @@ public class deleteNode {
             tmp.next = null;
         }else {
             // 将下一个结点的值输入当前待删除的结点
-            toBeDelete.value = toBeDelete.next.value;
+            toBeDelete.val = toBeDelete.next.val;
             // 待删除的结点的下一个指向原先待删除引号的下下个结点，即将待删除的下一个结点删除
             toBeDelete.next = toBeDelete.next.next;
 
